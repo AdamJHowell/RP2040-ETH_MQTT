@@ -7,6 +7,7 @@ import time
 from umqtt.simple import MQTTClient
 
 filename = "PrivateInfo.json"
+
 if os.path.isfile( filename ):
   with open( filename, "r" ) as text_file:
     text_data_string = text_file.read()
